@@ -1,12 +1,6 @@
 设 $\displaystyle  y = \sqrt{a^{2} - x^{2}}$，我们需要求 $\displaystyle dy$ 关于 $\displaystyle dx$ 的表达式。
 
 **步骤如下：**
-
-
-测试
-
-
-
 1. **对 $\displaystyle y$ 进行微分：**
 $$
    y = \sqrt{a^{2} - x^{2}} = (a^{2} - x^{2})^{\frac{1}{2}}

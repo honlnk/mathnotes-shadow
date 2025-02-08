@@ -15,10 +15,6 @@ def replace_text(content):
     content = re.sub(r'\\\(\[', '$[', content)
     content = re.sub(r'\]\\\)', ']$', content)
 
-    # # 替换所有的 ‘\[\n’ ‘\n\]’ 为 ‘$$\n’ 和 ‘\n$$’
-    # content = re.sub(r'\\\[\n', '$$\n', content)
-    # content = re.sub(r'\n\\\]', '\n$$', content)
-
     # 替换所有的 ‘\[’ ‘\]’ 为 ‘$$’ 和 ‘$$’
     content = re.sub(r'\\\[', '$$', content)
     content = re.sub(r'\\\]', '$$', content)
@@ -28,11 +24,16 @@ def replace_text(content):
 
 def select_file_with_fzf():
     """
-    使用 fzf 选择文件
+    使用 fzf 选择文件（增强过滤+排序）
     """
     try:
-        # 列出当前目录下的所有文件，并使用 fzf 选择
-        file_path = os.popen('find . -type f | fzf').read().strip()
+        cmd = r'''
+        find . -type d -name .git -prune -o \
+            -type f -name "*.md" -print |
+        sort -V |
+        fzf --tac
+        '''
+        file_path = os.popen(cmd).read().strip()
         if not file_path:
             print("未选择文件。")
             sys.exit(1)

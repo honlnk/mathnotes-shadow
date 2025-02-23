@@ -11,14 +11,15 @@
             "id": "9d794bb20efcc9fa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "笔记/导数的定义和解释.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "lucide-file",
-              "title": "导数的定义和解释"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]

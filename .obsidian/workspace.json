@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "67081d32c5ed139c",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0aaf412cdc110c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d794bb20efcc9fa",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5179aeb92992b71e",
+    "type": "split",
+    "children": [
+      {
+        "id": "918c5ab6f43ae20e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb75dc0051d47136",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "88ed9e835acacf00",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "65db78199b70dfe9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c5d10224c98cc9c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "905865de02be8f74",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3108e7b338b68843",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "代码理解/main.ts类/main.ts类.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "main.ts类 的反向链接列表"
+            }
+          },
+          {
+            "id": "fc5aab1c6d3691db",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "代码理解/main.ts类/main.ts类.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "main.ts类 的出链列表"
+            }
+          },
+          {
+            "id": "efa1744b87509023",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "046ee8db970ae531",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "代码理解/main.ts类/main.ts类.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "main.ts类 的大纲"
+            }
+          },
+          {
+            "id": "e2327d45d608036f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "源代码管理"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-git:打开Git源代码管理": false,
+      "obsidian42-brat:BRAT": false,
+      "i18n:I18N": false
+    }
+  },
+  "active": "e2327d45d608036f",
+  "lastOpenFiles": [
+    "笔记/幂函数相关运算.md",
+    "笔记/三角函数四则运算与恒等式大全.md",
+    "笔记/对数函数相关运算.md",
+    "P26 幂指函数求导.md",
+    "P25 已知f(x)可导，证明一个关于f(x)的F(x)的等式关系.md",
+    "P24 已知复合函数，求导，关于三角函数.md",
+    "欢迎.md",
+    "代码理解/main.ts类/main.ts类.md",
+    "代码理解/main.ts类",
+    "代码理解"
+  ]
+}

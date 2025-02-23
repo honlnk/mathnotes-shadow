@@ -11,10 +11,14 @@
             "id": "9d794bb20efcc9fa",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "笔记/导数的定义和解释.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "导数的定义和解释"
             }
           }
         ]
@@ -177,11 +181,12 @@
       "i18n:I18N": false
     }
   },
-  "active": "e2327d45d608036f",
+  "active": "9d794bb20efcc9fa",
   "lastOpenFiles": [
+    "笔记/导数的定义和解释.md",
+    "笔记/对数函数相关运算.md",
     "笔记/幂函数相关运算.md",
     "笔记/三角函数四则运算与恒等式大全.md",
-    "笔记/对数函数相关运算.md",
     "P26 幂指函数求导.md",
     "P25 已知f(x)可导，证明一个关于f(x)的F(x)的等式关系.md",
     "P24 已知复合函数，求导，关于三角函数.md",

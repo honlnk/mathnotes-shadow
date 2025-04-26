@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a0aaf412cdc110c5",
+        "id": "2e3bdfbc0c9e4fcb",
         "type": "tabs",
         "children": [
           {
-            "id": "9d794bb20efcc9fa",
+            "id": "b1e748dc22d10278",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "P7 等比数列求极限.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "P7 等比数列求极限"
             }
           }
         ]
@@ -167,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 361.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,8 +181,14 @@
       "i18n:I18N": false
     }
   },
-  "active": "9d794bb20efcc9fa",
+  "active": "b1e748dc22d10278",
   "lastOpenFiles": [
+    "P6 测试python代码.md",
+    "P5 证明单边不等式.md",
+    "P4 证明双边不等式.md",
+    "P3 函数导数与零点存在性证明.md",
+    "P2 证明在区间 ( (0,1) ) 内至少有一个实根.md",
+    "P1 求 ( dy ) 关于 ( dx ) 的表达式.md",
     "笔记/导数的定义和解释.md",
     "笔记/对数函数相关运算.md",
     "笔记/幂函数相关运算.md",
